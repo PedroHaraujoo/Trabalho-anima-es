@@ -1,0 +1,168 @@
+
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,255,1) 35%, rgba(0,212,255,1) 100%);
+}
+img{
+    height: 200px;
+    margin: 0;
+    position: absolute;
+    margin-left: 780px;
+    margin-top: 65px;
+}
+.container{
+    height: 900px;
+    width: 1000px;
+    display: flex;  
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+    align-content: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    justify-content: center;
+}
+h1{
+    margin: 30px;
+    width: 10vw;
+
+}
+/* Estilização do quadrado */
+.quadrado {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(0, 102, 255);
+    font-weight: bold;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    margin: 30px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.532);
+    border-radius: 20px;
+    
+  }
+  
+  /* Animação 1: Lento no início e fim */
+  .animacao-1 {
+    animation-name: animacao-1;
+    animation-timing-function: ease-in-out;
+    
+  }
+  
+  @keyframes animacao-1 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(200px);
+    }
+  }
+  
+  /* Animação 2: Mesma velocidade em toda a transição */
+  .animacao-2 {
+    animation-name: animacao-2;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+  }
+  
+  @keyframes animacao-2 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(200px);
+    }
+  }
+  
+  /* Animação 3: Início lento */
+  .animacao-3 {
+    animation-name: animacao-3;
+    animation-timing-function: ease-in;
+    animation-delay: 8s;
+  }
+  
+  @keyframes animacao-3 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(200px);
+    }
+  }
+  
+  /* Animação 4: Final lento */
+  .animacao-4 {
+    animation-name: animacao-4;
+    animation-timing-function: ease-out;
+    animation-delay: 12s;
+  }
+  
+  @keyframes animacao-4 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(200px);
+    }
+  }
+  
+  /* Animação 5: Início e fim lentos */
+  .animacao-5 {
+    animation-name: animacao-5;
+    animation-timing-function: ease-in-out;
+    animation-delay: 16s;
+  }
+  
+  @keyframes animacao-5 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(200px);
+    }
+  }
+  
+  /* Animação 6: Padrão para cada fase das transições */
+  .animacao-6 {
+    animation-name: animacao-6;
+    animation-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+    animation-delay: 20s;
+  }
+  
+  @keyframes animacao-6 {
+    0% {
+      transform: translateX(0);
+    }
+    25% {
+      transform: translateX(50px);
+    }
+    50% {
+      transform: translateX(100px);
+    }
+    75% {
+      transform: translateX(150px);
+    }
+    100% {
+      transform: translateX(200px);
+    }
+  }
+  .t1{
+    display: flex;
+  }
+  .t2{
+    display: flex;
+  }
+  .t3{
+    display: flex;
+  }
+  .t4{
+    display: flex;
+  }
+  .t5{
+    display: flex;
+  }
+  .t6{
+    display: flex;
+  }
